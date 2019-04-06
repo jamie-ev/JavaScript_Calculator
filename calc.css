@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+body {
+  margin: 0px;
+  font-family: "Fira Mono", Consolas, monotype;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background-color: #bda1a5;
+}
+
+/* calculator grid display box */
+#calculator-box {
+  margin: 20vh auto;
+  width: 270px;
+  display: grid;
+  padding: 10px 40px 40px 15px;
+  background-color: #252525;
+  grid-template-columns: 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 5px;
+  grid-gap: 5px;
+  grid-template-areas:
+    "header header header header"
+    "calc calc calc calc"
+    "clear clear div mult"
+    "seven eight nine sub"
+    "four five six add"
+    "one two three equals"
+    "zero zero dec equals"
+    "footer footer footer footer";
+}
+
+h1 {
+  grid-area: header;
+  text-align: center;
+  line-height: 70px;
+  margin: 0px;
+  color: #fff;
+  font-size: 18px;
+}
+
+#display {
+  grid-area: calc;
+  word-wrap: break-word;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #69494e;
+}
+
+#clear {
+  grid-area: clear;
+  background-color: #b30000;
+  color: #fff;
+}
+
+#equals {
+  grid-area: equals;
+  line-height: 145px;
+  background-color: #226600;
+  color: #fff;
+  font-size: 24px;
+}
+
+#zero {
+  grid-area: zero;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+/* class for all buttons on the calculator */
+.num-pad {
+  background-color: #646464;
+  line-height: 70px;
+  text-align: center;
+  font-size: 20px;
+  color: #ccffb3;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 2px 3px 10px 3px #000;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+/* class for operator buttons */
+.op-pad {
+  background-color: #454545;
+  color: #fff;
+  font-size: 24px;
+}
+  
+.num-pad:hover, .num-pad:active {
+  cursor: pointer;
+}
+
+.num-pad:active {
+  background-color: #000;
+}
+
+@media (max-width: 620px) {
+  #calculator-box {
+    margin: 10vh auto;
+  }
+  h1 {
+    font-size: 18px;
+  }
+ 
+}
