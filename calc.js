@@ -1,3 +1,4 @@
+// React code
 class Calculator extends React.Component {
     constructor(props) {
       super(props);
@@ -140,9 +141,12 @@ class Calculator extends React.Component {
     }
     render() {
       return (
+      {/* The actual code that displays the calculator */}
       <div id="calculator-box">
         <h1>JavaScript Calculator</h1>
+        {/* Display the key presses and calculated total */}
         <div className="num-pad" id="display">{this.state.currentString}</div>
+        {/* Clear the display */}
         <div className="num-pad" id="clear" onClick={this.handleClear}>AC</div>
         <div className="num-pad op-pad" id="divide" onClick={this.handleOperator}>/</div>
         <div className="num-pad op-pad" id="multiply" onClick={this.handleOperator}>*</div>
@@ -166,4 +170,5 @@ class Calculator extends React.Component {
     }
   }
   
+  // render the React component to the DOM
   ReactDOM.render(<Calculator />, document.getElementById('presentational'));  
