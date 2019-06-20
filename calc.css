@@ -19,6 +19,7 @@ body {
   grid-template-columns: 70px 70px 70px 70px;
   grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 5px;
   grid-gap: 5px;
+  /* set up the layout for the calculator buttons */
   grid-template-areas:
     "header header header header"
     "calc calc calc calc"
@@ -39,6 +40,7 @@ h1 {
   font-size: 18px;
 }
 
+/* Display of buttons pressed/calculation totals at top of calculator */
 #display {
   grid-area: calc;
   word-wrap: break-word;
@@ -47,12 +49,14 @@ h1 {
   background-color: #69494e;
 }
 
+/* button to clear the display */
 #clear {
   grid-area: clear;
   background-color: #b30000;
   color: #fff;
 }
 
+/* equals button */
 #equals {
   grid-area: equals;
   line-height: 145px;
@@ -61,6 +65,7 @@ h1 {
   font-size: 24px;
 }
 
+/* 'zero' button on the calculator */
 #zero {
   grid-area: zero;
 }
@@ -102,6 +107,7 @@ h1 {
   background-color: #000;
 }
 
+/* responsive for smaller screens */
 @media (max-width: 620px) {
   #calculator-box {
     margin: 10vh auto;
