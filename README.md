@@ -7,8 +7,8 @@ I built this calculator to help me deepen my understanding of both JavaScript an
 
 ## Getting Started
 
-I commented fairly extensively throughout the files, but please let me know if you have any questions. To view this project live on GitHub pages, please visit [this link](https://jamie-ev.github.io/JavaScript_Calculator/). Thanks for dropping by!
+I commented fairly extensively throughout the files, but please let me know if you have any questions. To view this project live on GitHub Pages, please visit [this link](https://jamie-ev.github.io/JavaScript_Calculator/). Thanks for dropping by!
 
 ## Author
 
-Jamie Everett - [LinkedIn](https://www.linkedin.com/in/everettjamie/)
+Jamie Ev. - [LinkedIn](https://www.linkedin.com/in/everettjamie/)
