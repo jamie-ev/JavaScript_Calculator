@@ -1,4 +1,7 @@
 // React code
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 class Calculator extends React.Component {
     constructor(props) {
       super(props);
@@ -141,8 +144,8 @@ class Calculator extends React.Component {
     }
     render() {
       return (
-      {/* The actual code that displays the calculator */}
       <div id="calculator-box">
+        {/* The actual code that displays the calculator */}
         <h1>JavaScript Calculator</h1>
         {/* Display the key presses and calculated total */}
         <div className="num-pad" id="display">{this.state.currentString}</div>
