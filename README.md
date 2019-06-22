@@ -7,7 +7,16 @@ I built this calculator to help me deepen my understanding of both JavaScript an
 
 ## Getting Started
 
-I commented fairly extensively throughout the files, but please let me know if you have any questions. To view this project live on GitHub Pages, please visit [this link](https://jamie-ev.github.io/JavaScript_Calculator/). Thanks for dropping by!
+You can find my original files in /dev_files/app, and the root files are copied over from /dev_files/build. I commented fairly extensively throughout the files, but please let me know if you have any questions. To view this project live on GitHub Pages, please visit [this link](https://jamie-ev.github.io/JavaScript_Calculator/). Thanks for dropping by!
+
+# Depencies
+
+* React
+* ReactDOM
+* Babel
+* Webpack
+
+(The last two are used to convert the JSX and ES6 from the React code.)
 
 ## Author
 
