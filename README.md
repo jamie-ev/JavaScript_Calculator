@@ -9,7 +9,7 @@ I built this calculator to help me deepen my understanding of both JavaScript an
 
 You can find my original files in /dev_files/app, and the root files are copied over from /dev_files/build. I commented fairly extensively throughout the files, but please let me know if you have any questions. To view this project live on GitHub Pages, please visit [this link](https://jamie-ev.github.io/JavaScript_Calculator/). Thanks for dropping by!
 
-# Depencies
+### Depencies
 
 * React
 * ReactDOM
